@@ -130,7 +130,7 @@ kNodes = [NodePath("N14-00"), NodePath("N14-01")]
 [node name="N14-00" type="Node3D" parent="."]
 
 [node name="Node3D" parent="N14-00" instance=ExtResource("6_0tt0r")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.307, 0.01, -4.861)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9365, 0.01, -4.861)
 
 [node name="Floor" type="MeshInstance3D" parent="N14-00"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
@@ -164,10 +164,6 @@ shape = SubResource("ConcavePolygonShape3D_j6kcl")
 
 [node name="CharacterBody3D" parent="N14-00" node_paths=PackedStringArray("CAMERA_CONTROLLER") instance=ExtResource("4_liofc")]
 CAMERA_CONTROLLER = NodePath("CameraController/Camera3D")
-
-[node name="GPUParticles3D" type="GPUParticles3D" parent="N14-00"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.06416, 3.9754, 3.84737)
-amount = 500
 
 [node name="N14-01" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20.0563)
